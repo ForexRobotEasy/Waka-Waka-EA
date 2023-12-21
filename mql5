@@ -1,0 +1,71 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                               Waka Waka EA.mq5   |
+//|                          Copyright 2021, Forex Robot Easy Team    |
+//|                                              forexroboteasy.com  |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add initialization code here
+    
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Add deinitialization code here
+    
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add trading logic here
+    
+    // Place buy and sell orders based on grid trading system
+    
+    // Calculate market inefficiencies to exploit
+    
+    // Maximize trading performance and minimize drawdown using real market mechanics
+    
+    // Execute Waka Waka EA algorithm effectively
+    
+    // Display live performance on Waka Waka website
+    
+    // Ensure compatibility with MT5 version
+    
+    // Maintain stability and reliability for consistent trading results
+}
+
+//+------------------------------------------------------------------+
+//| Expert Live Track Record                                         |
+//+------------------------------------------------------------------+
+void LiveTrackRecord()
+{
+    // Add live track record feature code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert on error function                                         |
+//+------------------------------------------------------------------+
+void OnError(const int error_code, const string description)
+{
+    // Handle errors here
+}
+
+//+------------------------------------------------------------------+
+//| Expert on chart event function                                   |
+//+------------------------------------------------------------------+
+void OnChartEvent(const int id, const long& lparam, const double& dparam, const string& sparam)
+{
+    // Handle chart events here
+}
